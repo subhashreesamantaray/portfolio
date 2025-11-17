@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhashree Samantaray | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #f8f4ef;
+            color: #2d2b2b;
+        }
+        header {
+            background: #d2b48c;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header h2 { margin: 0; }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+        .section {
+            padding: 60px 10%;
+        }
+        .home-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+        }
+        .home-photo img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #c9a675;
+        }
+        .google-buttons a {
+            display: inline-block;
+            background: #fff;
+            padding: 12px 28px;
+            border-radius: 30px;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,.15);
+            transition: .3s;
+            text-align: center;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        footer {
+            background: #d2b48c;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Subhashree Samantaray</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+    </nav>
+</header>
+
+<section id="home" class="section home-section">
+    <div class="home-container">
+        <div class="home-text">
+            <h1>Hello, I'm <span style="color:#a67c52">Subhashree</span></h1>
+            <p>Aspiring <b>Software Developer</b> transitioning from <b>Computer Science teaching</b> into tech.
+               Skilled in Python, SQL, Data Analysis, Power BI, and Cybersecurity basics.</p>
+
+            <div class="google-buttons">
+                <a href="#education">🎓 Education</a>
+                <a href="#projects">💻 Projects</a>
+                <a href="#certificates">📄 Certificates</a>
+                <a href="#contact">📞 Contact</a>
+            </div>
+        </div>
+
+        <div class="home-photo">
+            <img src="C:/Users/preet/OneDrive/Desktop/document/photo.jpeg" alt="Profile Photo">
+        </div>
+    </div>
+</section>
+
+<section id="education" class="section">
+    <h1>Education</h1>
+    <div class="cards-container">
+        <div class="card">
+            <h3>MCA – NIST Autonomous, Berhampur</h3>
+            <p>2022–2024 | CGPA: 6.75</p>
+        </div>
+        <div class="card">
+            <h3>B.Sc Physics – Govt. Autonomous College, Phulbani</h3>
+            <p>2019–2022 | CGPA: 6.56</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h1>Projects</h1>
+    <div class="card">
+        <h3>Comparison of IoT Protocols (802.11ah vs 802.15.4)</h3>
+        <p><b>Tools:</b> NS-3</p>
+        <p>Performed detailed analysis of IoT protocols: throughput, efficiency, range, and power consumption.</p>
+    </div>
+</section>
+
+<section id="certificates" class="section">
+    <h1>Certificates & Achievements</h1>
+    <div class="cards-container">
+        <div class="card">
+            <img src="C:/Users/preet/OneDrive/Pictures/Screenshots/Screenshot 2025-10-15 203926.png" alt="AI for Cybersecurity">
+            <h3>AI for Cybersecurity</h3>
+        </div>
+        <div class="card">
+            <img src="C:/Users/preet/OneDrive/Pictures/Screenshots/Screenshot 2025-10-15 203947.png" alt="Turtle Internship">
+            <h3>Turtle Cybersecurity Internship</h3>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h1>Contact</h1>
+    <p>Email: <b>preetysamantaray@gmail.com</b></p>
+    <p>Phone: <b>+91 9861766497</b></p>
+    <p>Location: Phulbani, Odisha</p>
+</section>
+
+<footer>
+    © 2025 Subhashree Samantaray | Portfolio
+</footer>
+
+</body>
+</html>
